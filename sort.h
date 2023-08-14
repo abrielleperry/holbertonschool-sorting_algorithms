@@ -2,8 +2,13 @@
 #define SORT_H
 
 #include <stdio.h>
-#include "sort.h"
-
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdbool.h>
 /**
  * struct listint_s - Doubly linked list node
  * @n: Integer  stored in the node
