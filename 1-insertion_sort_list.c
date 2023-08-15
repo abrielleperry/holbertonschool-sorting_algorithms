@@ -9,7 +9,8 @@
  * Return Nothing
  */
 
-void implement_going_back(listint_t **prev, listint_t *actual, listint_t **head)
+void implement_going_back(listint_t **prev, listint_t *actual,
+		listint_t **head)
 {
 	while (actual->prev != NULL && actual->n < actual->prev->n)
 	{
